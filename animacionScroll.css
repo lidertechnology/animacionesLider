@@ -1,0 +1,25 @@
+//Animaciones hechas con @keyframes video de muestra: https://www.youtube.com/watch?v=AbCYziNyjvk
+  @keyframes show {
+    from {
+      opacity: 0;
+      scale: 15%; 
+    }
+
+    to {
+      opacity: 1;
+      scale: 100%;
+    }
+  }  
+  ion-col {
+    view-timeline: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+  }
+
+  //https://www.youtube.com/watch?v=UmzFk68Bwdk otro link
+  /****************FIN ANIMACIONES******************/
